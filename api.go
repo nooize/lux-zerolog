@@ -1,11 +1,11 @@
-package zerolog
+package lux_zerolog
 
 import (
-	"github.com/nooize/lwr"
+	"github.com/nooize/lux"
 	"github.com/rs/zerolog"
 )
 
-func NewZerologTarget(logger zerolog.Logger) lwr.Target {
+func NewZerologTarget(logger zerolog.Logger) lux.Target {
 	t := &zerologTarget{
 		logger: logger,
 	}

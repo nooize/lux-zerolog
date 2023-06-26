@@ -1,4 +1,4 @@
-package zerolog
+package lux_zerolog
 
 import (
 	"github.com/rs/zerolog"
